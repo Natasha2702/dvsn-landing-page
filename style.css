@@ -45,7 +45,48 @@ padding: 16px 32px;
 display: inline-block;
 margin-top: 32px;}
 
-@media (max-width:800px) {header{padding: 60px 0;}
+section{max-width: 1500px;
+margin: 0;
+}
+
+.grid{display: grid;
+grid-template-columns: 1fr 2fr 2fr;}
+
+footer{color: white;
+background-image:linear-gradient(rgba(37, 15, 15, 0.7),rgba(0,0,0.5)),  url('./image/40583-nsh-dvsn-006-05-1-1659484757.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px 0;
+}
+footer h3{font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+padding: 0;
+text-align: center;}
+
+footer p{font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-right: 20px;
+text-align: center;
+opacity: 0.9;}
+
+footer ul{
+padding: 0;
+text-align: center;}
+
+
+footer li{list-style: none;
+margin: 0;
+padding: 0;}
+
+footer a{color: white;
+opacity: 0.7;
+text-decoration: none;}
+
+
+
+@media (max-width:960px) {header{padding: 60px 0;}
 header h1{font-size: 48px;}
 header h2{font-size: 20px;}
 header h3{font-size: 12px;}
