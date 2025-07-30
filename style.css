@@ -50,7 +50,8 @@ margin: 0;
 }
 
 .grid{display: grid;
-grid-template-columns: 1fr 2fr 2fr;}
+grid-template-columns: 1fr 2fr 2fr;
+grid-gap: 64px;}
 
 footer{color: white;
 background-image:linear-gradient(rgba(37, 15, 15, 0.7),rgba(0,0,0.5)),  url('./image/40583-nsh-dvsn-006-05-1-1659484757.jpeg');
@@ -67,7 +68,6 @@ text-align: center;}
 footer p{font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-margin-right: 20px;
 text-align: center;
 opacity: 0.9;}
 
