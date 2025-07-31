@@ -84,7 +84,7 @@ opacity: 0.7;}
 
 .img-responsive{max-width: 100%;
 max-height: 100%;
-margin-top: 10%;}
+margin-top: 20%;}
 
 section{max-width: 100%;
 margin: 0;
@@ -128,13 +128,23 @@ background-color: rgb(236, 94, 94);}
 .embed{width: 100%;
 aspect-ratio: 1/1;}
 
-.card .card-footer{padding: 30px;}
+.card.card-footer{padding: 30px;}
+
+.third-section{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0.3)),url('./image/two.JPG');
+background-repeat: no-repeat;
+background-size: cover;
+margin: 30px 0;
+}
+
+.grid-3-even-columns{grid-template-columns: 1fr 1fr 1fr;
+grid-gap:5px;
+padding: 25px;}
 
 footer{color: white;
 background-image:linear-gradient(rgba(37, 15, 15, 0.7),rgba(0,0,0.5)),  url('./image/40583-nsh-dvsn-006-05-1-1659484757.jpeg');
 background-repeat: no-repeat;
 background-size: cover;
-padding: 100px 0;
+padding: 20px 0;
 max-height: fit-content;
 }
 footer h3{font-weight: 700;
