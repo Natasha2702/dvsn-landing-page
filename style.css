@@ -125,6 +125,9 @@ text-transform: uppercase;
 padding: 16px;
 background-color: rgb(236, 94, 94);}
 
+.embed{width: 100%;
+aspect-ratio: 1/1;}
+
 .card .card-footer{padding: 30px;}
 
 footer{color: white;
@@ -132,6 +135,7 @@ background-image:linear-gradient(rgba(37, 15, 15, 0.7),rgba(0,0,0.5)),  url('./i
 background-repeat: no-repeat;
 background-size: cover;
 padding: 100px 0;
+max-height: fit-content;
 }
 footer h3{font-weight: 700;
 font-size: 20px;
@@ -167,5 +171,6 @@ header h3{font-size: 12px;}
 .grid{grid-template-columns: 1fr;
 grid-gap:32px;}
 section{padding: 30px;}
+.embed{aspect-ratio: 12/6}
     
 }
